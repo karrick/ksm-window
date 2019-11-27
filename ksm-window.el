@@ -9,7 +9,7 @@
 ;;; Created: 2019-11-27
 ;;; Homepage: https://github.com/karrick/ksm-window
 ;;; Package-Requires: ((emacs "24.4"))
-;;; Package-Version: 0.1.3
+;;; Package-Version: 0.1.4
 ;;;
 ;;; Commentary:
 ;;;
