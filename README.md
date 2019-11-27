@@ -16,8 +16,8 @@ my ~/.emacs/init.el file.
 
 ```Lisp
    (require 'ksm-window)
-   (global-set-key (kbd "C-x w") #'ksm/window-zoom-out) ;; restore frame layout from stack
-   (global-set-key (kbd "C-x z") #'ksm/window-zoom-in)  ;; save frame layout, then zoom in to buffer
+   (global-set-key (kbd "C-x w") #'ksm-window-zoom-out) ;; restore frame layout from stack
+   (global-set-key (kbd "C-x z") #'ksm-window-zoom-in)  ;; save frame layout, then zoom in to buffer
 ```
 
 I also frequently find myself working with half a dozen buffers in as
@@ -30,6 +30,6 @@ To do this, I add the following two more lines to my
 ~/.emacs.d/init.el file:
 
 ```Lisp
-   (global-set-key (kbd "C-x j") #'ksm/window-config-restore) ;; prompt for NAME and restore config
-   (global-set-key (kbd "C-x p") #'ksm/window-config-save)    ;; prompt for NAME and save config
+   (global-set-key (kbd "C-x j") #'ksm-window-config-restore) ;; prompt for NAME and restore config
+   (global-set-key (kbd "C-x p") #'ksm-window-config-save)    ;; prompt for NAME and save config
 ```
