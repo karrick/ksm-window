@@ -1,4 +1,4 @@
-;;; ksm-window.el --- Provides handy window management functions
+;;; ksm-window.el --- Provides handy window management functions -*- lexical-binding: t; -*-
 ;;;
 ;;; Copyright (c) 2019 Karrick S. McDermott
 ;;;
@@ -9,7 +9,7 @@
 ;;; Created: 2019-11-27
 ;;; Homepage: https://github.com/karrick/ksm-window
 ;;; Package-Requires: ((emacs "24.4"))
-;;; Package-Version: 0.1.2
+;;; Package-Version: 0.1.3
 ;;;
 ;;; Commentary:
 ;;;
